@@ -69,6 +69,11 @@ html, body {
   padding: 20px;
 }
 
+.below-landing .row {
+  max-width: 1000px;
+  margin: auto;
+}
+
 .below-landing a {
   color: #ffffff;
   text-decoration: underline;
