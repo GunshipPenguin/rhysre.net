@@ -1,0 +1,92 @@
+html, body {
+  height: 100%;
+  font-family: Helvetica;
+}
+
+#landing {
+    background-color: rgb(128,128,128);
+    color: #ffffff;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+}
+
+.welcome-text {
+  font-family: monospace;
+  font-size: 50px;
+}
+
+.welcome-text-sub {
+  font-size: 15px;
+}
+
+.social-icon {
+  width: 64px;
+  height: 64px;
+}
+
+.social-icon:hover {
+  opacity: .5;
+}
+
+#header {
+  text-align:center;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+}
+
+#nav {
+  position:absolute;
+	bottom:0;
+	right:0;
+	left:0;
+	margin-bottom: 20px;
+}
+
+#nav p {
+  font-size: 20px;
+}
+
+#nav a {
+  color: #ffffff;
+  margin: 10px;
+}
+
+#nav a:hover {
+  color: rgb(64, 64, 64);
+  text-decoration: none;
+}
+
+.below-landing {
+  background-color: rgb(64, 64, 64);
+  color: #ffffff;
+}
+
+.below-landing img {
+  padding: 20px;
+}
+
+.below-landing a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.below-landing a:hover {
+  color: rgb(128, 128, 128);
+  text-decoration: underline;
+}
+
+footer {
+  background-color: rgb(64, 64, 64);
+  color: #ffffff;
+  text-align: right;
+}
+
+footer p {
+  color: rgb(128, 128, 128);
+  display: inline;
+  margin: 6px;
+}

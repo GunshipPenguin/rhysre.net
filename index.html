@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rhys RE</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/smoothscroll.js"></script>
+</head>
+<body>
+
+  <div id="landing" class="container-fluid text-center" style="position: relative">
+    <div id="header">
+      <p class="welcome-text">Hello World!</p>
+        <h2>I'm Rhys</h2>
+        <p class="welcome-text-sub">Computer Science Student, Programmer and Hacker</p>
+        <ul class="list-inline">
+          <li>
+            <a href="https://github.com/GunshipPenguin">
+              <img class="social-icon" src="static/github.svg"></img>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://linkedin.com/in/rhysrustadelliott">
+              <img class="social-icon" src="static/linkedin.svg"></img>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div id="nav" class="container-fluid">
+        <p>
+          <a data-scroll href="#About">About</a> /
+          <a data-scroll href="#Projects">Projects</a> /
+          <a data-scroll href="static/resume.pdf">Resume</a>
+        </p>
+      </div>
+  </div>
+
+  <div id="about" class="below-landing container-fluid text-center">
+    <a id="About"></a>
+    <h2>About</h2>
+    <div class="row">
+      <div class="col-xs-8">
+        <p>
+          I'm a Computer Science student from Vancouver, BC, currently working
+          towards a Bachelor's of Science in Computer Science at the University
+          of Toronto Scarborough. I've had a passion for all things technical
+          since Elementary School, when I started toying around with Python. I
+          have experience with Python, C, C++, Java, JavaScript and Lua and have
+          received LPI's LPIC-1 Linux Certification. I'm interested in a wide
+          variety of Computer Science related fields including game development,
+          computer security, competitive programming and web development. In my
+          spare time, I enjoy skiing, curling, running and working on personal
+          projects (see below).
+        </p>
+
+        <p>
+          If you want to contact me, I can be reached at &#109;&#101;&#064;&#114;&#104;&#121;&#115;&#114;&#101;&#046;&#110;&#101;&#116;
+        </p>
+      </div>
+      <div class="col-xs-4">
+        <img class="img-circle img-responsive center-block" src="static/me.jpg"></img>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="below-landing container-fluid text-center">
+    <a id="Projects"></a>
+    <h2>Projects</h2>
+
+    <div class="row">
+      <div class="col-xs-4">
+        <img class="img-responsive center-block" src="static/open_flood.png"></img>
+      </div>
+      <h3>Open Flood</h3>
+      <a href="https://github.com/GunshipPenguin/open_flood">GitHub Repository</a> /
+      <a href="https://play.google.com/store/apps/details?id=com.gunshippenguin.openflood&hl=en">Google Play Store Page</a> /
+      <a href="https://f-droid.org/repository/browse/?fdid=com.gunshippenguin.openflood">F-Droid Page</a>
+      <div class="col-xs-8">
+        <p>
+          Open Flood is a free and open source flood-fill puzzle game for
+          Android. The goal of the game is to fill the entire board with a
+          single colour in less than the maximum number of allowed moves. The
+          size of the board as well as number of colours can be customized to
+          change the game's difficulty. Boards can also be generated from seeds,
+          allowing players to share challenging or interesting boards with
+          others.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-4">
+        <img class="img-responsive center-block" src="static/corridorsio.png"></img>
+      </div>
+      <h3>Corridors.io</h3>
+      <a href="https://github.com/GunshipPenguin/corridors.io">Github Repository</a> /
+      <a href="https://corridors.io">Live Demo</a>
+      <div class="col-sm-8">
+        <p>
+          Corridors.io is a first-person 3D maze game created with the
+          <a href="https://threejs.org">Three.js</a> JavaScript WebGL library. A
+          maze is generated using a randomized depth-first-search algorithm and
+          the player is then given the chance to find their way out in first
+          person.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <script>
+      smoothScroll.init()
+    </script>
+      <p>Made with Bootstrap <a href="https://github.com/GunshipPenguin/site">Github Repo</a> </p>
+  </footer>
+</body>
+</html>
