@@ -67,6 +67,14 @@ html, body {
 
 .below-landing img {
   padding: 20px;
+  max-width: 300px;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+	.below-landing img {
+		max-width: 100%;
+	}
 }
 
 .below-landing .row {
