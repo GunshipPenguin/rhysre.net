@@ -107,3 +107,7 @@ footer p {
   display: inline;
   margin: 6px;
 }
+
+.below-landing ul {
+  text-align: left;
+}
