@@ -71,12 +71,6 @@ html, body {
   margin: auto;
 }
 
-@media screen and (min-width: 768px) {
-	.below-landing img {
-		max-width: 100%;
-	}
-}
-
 .below-landing .row {
   max-width: 1000px;
   margin: auto;
