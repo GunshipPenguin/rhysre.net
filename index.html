@@ -75,11 +75,20 @@
           <a href="https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)">Deep Blue Chess Computer</a>.
           It can be used with any UCI compatible chess GUI and implements the following features:</p>
         <ul>
-          <li>Bitboard board representation and move generation</li>
+          <li>Bitboard based board representation and move generation</li>
+          <li>Principal variation search</li>
+          <li>Quiescence search</li>
+          <li>A sophisticated evaluation function taking into account:</li>
+          <ul>
+            <li>Piece square tables</li>
+            <li>Pawn structure</li>
+            <li>Bishop pairs</li>
+            <li>Rooks on open files</li>
+            <li>Mobility</li>
+            <li>King safety</li>
+          </ul>
+          <li>Killer, MVV/LVA and history heuristics for move ordering</li>
           <li>Zobrist hashing / Transposition Table</li>
-          <li>Piece square tables for evaluation</li>
-          <li>Iterative deepening Minimax Search with Alpha-Beta Pruning and Move Ordering</li>
-          <li>Quiescence search with MVV/LVA move ordering</li>
         </ul>
       </div>
     </div>
